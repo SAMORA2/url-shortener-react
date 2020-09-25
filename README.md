@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###`preview`
+### `preview`
 https://agitated-archimedes-4f1cdb.netlify.app/
 
 ### `clone the project`
