@@ -8,8 +8,9 @@ https://agitated-archimedes-4f1cdb.netlify.app/
 ### `clone the project`
  Run => git clone https://github.com/SAMORA2/url-shortener-react.git
  
- ### `Go to the root directory`
- Run => npm install  
+ ## `Go to the root directory`
+ 
+ ### `npm install`
  (to install Requirements)
 
 
