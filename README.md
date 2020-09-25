@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  
  ### `Go to the root directory`
  Run => npm install  
- to install Requirements
+ (to install Requirements)
 
 
 ### `npm start`
