@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `preview`
+### `Demo`
+
 https://agitated-archimedes-4f1cdb.netlify.app/
+----------------------------------------------------------------------
 
 ### `clone the project`
  Run => git clone https://github.com/SAMORA2/url-shortener-react.git
