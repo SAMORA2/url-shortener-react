@@ -6,7 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  Run => git clone https://github.com/SAMORA2/url-shortener-react.git
  
  ### `Go to the root directory`
- Run => npm install  to install Requirements
+ Run => npm install  
+ to install Requirements
 
 
 ### `npm start`
