@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+html {
+  background: #191835;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.url-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7rem;
+  line-height: 90px;
+  margin-top: 150px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.userInput {
+  width: 40%;
+  height: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 50px #ece3e39f;
+  font-size: 27px;
+  line-height: 48px;
+  border-radius: 20px 0 0 20px;
+  color: #3e3f41;
+  padding: 0 15px;
+  outline: none;
+  border: 0;
+}
+
+.inputDiv {
+  height: 200px;
+}
+
+.my-logo a {
+  padding: 15px;
+}
+
+.my-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-logo h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  justify-self: flex-end;
+  align-content: center;
+  margin: 0;
+}
+
+.textDiv {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+  padding: 5px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.image-div {
+  display: flex;
+  width: 35%;
+  margin-left: 100px;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.btn-search {
+  background-color: #1f0220;
+  border: 0;
+  font-size: 27px;
+  line-height: 46px;
+  border-radius: 0 20px 20px 0;
+  width: 180px;
+  color: #eee;
+  font-weight: bold;
+  box-shadow: 0px 0px 50px #ece3e39f;
+  outline: none !important;
+}
+
+.btn-search:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color: #e89f71;
+}
+
+.copyRight {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  opacity: 0.7;
+  font-weight: 600;
+  width: 20%;
+  margin-left: 15px;
+  font-size: 1.6rem;
+  align-self: center;
+}
+
+.copy-btn img {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  padding-bottom: 2px;
+  margin: 2px 2px 0 0;
+  border: 0;
+  display: inline;
+}
+
+.copy-btn {
+  margin: 0 auto;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  margin-left: 30px;
+}
+
+.url-msg-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+}
+
+.url-msg-div a {
+  color: #ff9a76;
+  text-decoration: none;
+}
+
+.url-msg-div a:hover {
+  border-bottom: 1px solid black;
+  text-decoration: underline;
+  width: 100%;
+  transition: width 2s;
+  border-bottom-width: 2rem;
+}
+
+.image-logo {
+  width: 120px;
+  height: 110px;
+}
+
+@media only screen and (max-width: 1580px) {
+  .url-text {
+    font-size: 6rem;
+  }
+  .userInput {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .url-text {
+    font-size: 4rem;
+  }
+  .userInput {
+    margin-top: 40px;
+    width: 65%;
+  }
+  .image-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .image-div img {
+    width: 35px;
+    height: 35px;
+  }
+  .copyRight {
+    font-size: 1.1rem;
+  }
+  .textDiv h2 {
+    font-size: 1.1rem;
+    padding-right: 35px;
+  }
+}
+
+/* snakebar message */
+
+#snackbar {
+  visibility: hidden;
+  /* Hidden by default. Visible on click */
+  width: 120px;
+  height: 57px;
+  font-weight: 700;
+  /* Set a default minimum width */
+  margin-left: -60px;
+  /* Divide value of min-width by 2 */
+  background-color: rgba(219, 208, 52, 0.904);
+  /* Black background color */
+  color: rgba(34, 33, 33, 0.959);
+  /* White text color */
+  text-align: center;
+  /* Centered text */
+  border-radius: 0 15px 0 15px;
+  /* Rounded borders */
+  padding: 16px;
+  /* Padding */
+  position: fixed;
+  /* Sit on top of the screen */
+  z-index: 1;
+  /* Add a z-index if needed */
+  left: 50%;
+  /* Center the snackbar */
+  top: 30px;
+  /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+
+#snackbar.show {
+  visibility: visible;
+  /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
