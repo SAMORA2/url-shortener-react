@@ -1,7 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-###clone the project
+
+### `clone the project`
+ Run => git clone https://github.com/SAMORA2/url-shortener-react.git
+ 
+ ### `Go to the root directory`
+ Run => npm install  to install Requirements
+
 
 ### `npm start`
 
